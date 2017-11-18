@@ -55,8 +55,9 @@ module.exports = {
       ]),
       purifyOptions: {
         whitelist: [ '*:not*' ]
-      }
-    })
+      },
+      minimize: true
+    }),
   ],
   resolve: {
     modules: [
